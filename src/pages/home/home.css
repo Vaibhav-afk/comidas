@@ -1,1 +1,33 @@
-.home {}
+.home {
+    text-align: center;
+}
+
+.inputField {
+    color: #206A5D;
+    font-weight: 500;
+    border: 1.4px solid #7FC8A9;
+    padding: 5px;
+    font-size: 18px;
+    box-shadow: 0 0 9px 0 rgba(0, 0, 0, 0.5);
+    margin: 0 auto;
+    border-radius: 1.8rem;
+    width: 40vw;
+    height: 2.5rem;
+}
+
+.searchButton {
+    color: #fff;
+    background-color: #DF2E2E;
+    border-radius: 0 1.8rem 1.8rem 0;
+    position: relative;
+    top: 15px;
+    margin-left: -58px;
+    border: none;
+    cursor: pointer;
+}
+
+.searchButton,
+.inputField,
+.searchBox:focus {
+    outline: none;
+}
