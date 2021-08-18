@@ -3,7 +3,6 @@ import Footer from "../../components/footer/Footer";
 import Header from "../../components/header/Header";
 import "./home.css";
 import SearchIcon from "@material-ui/icons/Search";
-import MealDetails from "../../components/mealDetails/MealDetails";
 import axios from "axios";
 import "./home.css";
 
